@@ -35,7 +35,7 @@ public class TestEntityWithGeneratedValueAndPostPersist
 
     @Override
     public void setUp() {
-        setUp(EntityWithGeneratedValueAndPostPersist.class, CLEAR_TABLES);
+        setUp(EntityWithGeneratedValueAndPostPersist.class, DROP_TABLES);
         cache = 0;
     }
 
