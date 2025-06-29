@@ -36,7 +36,7 @@ public class TestUuidGeneratedEntity extends SingleEMFTestCase {
 
     @Override
     public void setUp() {
-        setUp(UuidGeneratedEntity.class, CLEAR_TABLES);
+        setUp(UuidGeneratedEntity.class, DROP_TABLES);
         _dict = ((JDBCConfiguration)emf.getConfiguration()).getDBDictionaryInstance();
     }
 
